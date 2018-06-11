@@ -175,6 +175,7 @@ $si-rotated-shadow-v: $si-inverse-root-2 * ($si-shadow-h + $si-shadow-v);     //
     max-height: 100%;
     padding: $si-content-padding;
     background-color: $si-content-bg;
+    box-sizing: content-box;
 
     .#{$si-pre}-has-border & {
         border: $si-border-width solid $si-border-color;
